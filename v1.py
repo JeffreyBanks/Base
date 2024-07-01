@@ -9,7 +9,7 @@ import os  # Import os module for environment variables
 # Configuration
 BASE_CHAIN_URL = "https://base.blockpi.network/v1/rpc/7922ee7d50270adaed240e792075235e8034de56"  # Base chain RPC URL
 PRIVATE_KEY = os.getenv('PRIVATE_KEY')  # Retrieve private key from environment variable
-WALLET_ADDRESS = "0x2D4ECE86C293fedB683Bb6EB02F4E3ffF2f0Faa6"  # Wallet address
+WALLET_ADDRESS = "0x67BF9289B0519eBF4c5050fa8069aBE8980C74E7"  # Wallet address
 SLIPPAGE = 0.2  # 20% slippage
 PRICE_INCREASE_THRESHOLD = 1.5  # 150%
 
